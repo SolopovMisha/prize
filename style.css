@@ -1,0 +1,45 @@
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.prize {
+    width: 23%; 
+    height: 150px; 
+    margin-right: 2%; 
+    margin-bottom: 2%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #a0d9ff; 
+    border-radius: 10px; 
+}
+
+.prize_number {
+    text-align: center;
+}
+
+.prize:nth-child(4n) {
+    margin-right: 0;
+}
+
+.button__block {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+    width: 100%;
+}
+
+.prize__result {
+    font-weight: bold; 
+    font-size: 24px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.prize.active {
+  background-color: #ffdd56;
+}
