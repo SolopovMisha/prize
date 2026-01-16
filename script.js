@@ -20,6 +20,5 @@ document.querySelector('.prize__button').addEventListener('click', () => {
   
   const winningPrize = Array.from(elements).find(el => el.textContent === randomNumber).closest('.prize');
   winningPrize.classList.add('active');
-  
-  console.log(prizeNumbers);
+
 });
